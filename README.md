@@ -3,10 +3,15 @@ springboot整合activiti在线设计器
 页面打开：http://localhost:8082/modeler.html?modelId=1
 
 25张表详解：
+
 1、act_ge_ 通用数据表，ge是general的缩写
+
 2、act_hi_ 历史数据表，hi是history的缩写，对应HistoryService接口
+
 3、act_id_ 身份数据表，id是identity的缩写，对应IdentityService接口
+
 4、act_re_ 流程存储表，re是repository的缩写，对应RepositoryService接口，存储流程部署和流程定义等静态数据
+
 5、act_ru_ 运行时数据表，ru是runtime的缩写，对应RuntimeService接口和TaskService接口，存储流程实例和用户任务等动态数
 
 与部署对象和流程定义相关的表
